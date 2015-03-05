@@ -1,0 +1,7 @@
+language: csharp
+
+install:
+  - nuget install Rx-Main
+
+script:
+  - find .
