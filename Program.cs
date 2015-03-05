@@ -10,6 +10,7 @@ namespace reactive_sketchpad
 {
     static public class Ex
     {
+        // http://stackoverflow.com/a/28873998/847349
         public static IObservable<TResult> CombineWithPrevious<TSource, TResult>(
     this IObservable<TSource> source,
     Func<TSource, TSource, TResult> resultSelector)
