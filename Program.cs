@@ -33,6 +33,7 @@ namespace reactive_sketchpad
             }
         }
 
+        // http://stackoverflow.com/a/28873952/847349
         static void Main(string[] args)
         {
             List<MyPoint> points = new List<MyPoint>();
