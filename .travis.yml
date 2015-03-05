@@ -5,3 +5,4 @@ install:
 
 script:
   - find .
+  - mcs /r:"./Rx-Linq.2.2.5/Core.2.2.5/lib/net45/System.Reactive.Core.dll","./Rx-Linq.2.2.5/Linq.2.2.5/lib/net45/System.Reactive.Linq.dll","./Rx-Linq.2.2.5/PlatformServices.2.2.5/lib/net45/System.Reactive.PlatformServices.dll","./Rx-Linq.2.2.5/Interfaces.2.2.5/lib/net45/System.Reactive.Interfaces.dll" Program.cs
