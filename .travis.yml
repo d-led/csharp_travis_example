@@ -1,5 +1,7 @@
 language: csharp
 
+sudo: false
+
 install:
   - nuget install Rx-Main -OutputDirectory .
 
